@@ -1,6 +1,6 @@
 # `useWindowSize`
 
-A hook for measuring the size of elements.
+A hook for getting the viewport size.
 
 ```jsx
 import { useWindowSize } from 'unihook';
