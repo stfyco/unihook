@@ -6,6 +6,6 @@ test('should use size', () => {
     return useWindowSize();
   });
 
-  expect(result.current.height).toBe(0);
-  expect(result.current.width).toBe(0);
+  expect(result.current.height).toBe(window.innerHeight || Infinity);
+  expect(result.current.width).toBe(window.innerWidth || Infinity);
 });
